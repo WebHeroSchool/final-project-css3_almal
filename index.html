@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>development</title>
+    <meta name="viewport" content="initial-scale=1.0, width=device-width">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./fonts.css">
+  </head>
+  <body>
+    <header class="header">
+      <nav class="menu">
+        <a class="menu__item menu__item_hide" href="#">Мои навыки</a>
+        <a class="menu__item menu__item_hide" href="#">Оставить заявку</a>
+        <a class="menu__item menu__item_button" href="#">Позвонить</a>
+      </nav>
+      <div class="hamburger-menu">
+        <input id="menu__toggle" type="checkbox" />
+        <label class="menu__btn" for="menu__toggle">
+          <span></span>
+        </label>
+        <nav class="menu-hide">
+          <a class="menu-hide__item" href="#">Мои навыки</a>
+          <a class="menu-hide__item" href="#">Оставить заявку</a>
+        </nav>
+      </div>
+    </header>
+    <main class="main-wrapper">
+      <section class="cover">
+        <h1 class="cover__title">Разработка сайтов, игр и приложений</h1>
+        <p class="cover__subtitle">Помогаю воплощать мечты в реальность</p>
+      </section>
+      <section class="info-advantages">
+        <div class="advantages-wrapper">
+          <h2 class="section-title">Почему вам стоит обратиться ко мне</h2>
+          <div class="advantages">
+            <div class="advantages__item">
+              <img class="advantages__item-icon" src="images/icon heart.svg" alt="icon heart">
+              <h2 class="advantages__item-title">Индивидуальный подход</h2>
+              <p class="advantages__item-description">
+                Каждый клиент для меня особенный. Я тщательно изучаю что ему необходимо, прежде, чем приступить к работе.
+              </p>
+            </div>
+            <div class="advantages__item">
+              <img class="advantages__item-icon" src="images/icon price.svg" alt="icon price">
+              <h2 class="advantages__item-title advantages__item-title_middle">Разумные цены</h2>
+              <p class="advantages__item-description">
+                Я предлагаю выгодные цены за безупречное выполнение работы и соблюдение сроков
+              </p>
+            </div>
+            <div class="advantages__item">
+              <img class="advantages__item-icon" src="images/icon result.svg" alt="icon result">
+              <h2 class="advantages__item-title">Отличный результат!</h2>
+              <p class="advantages__item-description">
+                Я внимательно работаю над каждым проектом. Я очень люблю свою работу, поэтому вас обрадует результат проделанной работы.
+              </p>
+            </div>
+          </div>
+          <div class="">
+            <a class="advantages__button" href="#">Получить консультацию</a>
+          </div>
+        </div>
+      </section>
+      <section class="info-skills">
+        <h2 class="section-title">Что я могу</h2>
+        <div class="skills">
+          <div class="skills__item skills__item_show">
+            <img clss="skills__item-icon" src="images/icon code.svg" alt="icon code">
+            <div class="skills__item-text">
+              <h2 class="item-text__title skills__item_show-title">
+                Я умею писать валидный и семмантически верный код для вашего сайта или приложения
+              </h2>
+              <p class="item-text__description skills__item_show-description">
+                Ваш сайт и приложение будут верно работать, благодаря моей верстке
+              </p>
+            </div>
+          </div>
+          <div class="skills__item skills__item_right">
+            <div class="skills__item-text skills__item-text_left">
+              <h2 class="item-text__title">
+                Я умею создавать игры и анимации с помощью JavaScript
+              </h2>
+              <p class="item-text__description">
+                Я свободно владею языком JavaScript и могу “оживить” ваш сайт и приложение
+              </p>
+            </div>
+            <img clss="skills__item-icon" src="images/icon JS.svg" alt="icon JS">
+          </div>
+          <div class="skills__item">
+            <img clss="skills__item-icon" src="images/icon react.svg" alt="icon react">
+            <div class="skills__item-text">
+              <h2 class="item-text__title">
+                Я умею создавать приложения с помощью React
+              </h2>
+              <p class="item-text__description">
+                Благодаря моим навыкам, ваш сайт и приложение будут максимально удобными в использовании
+              </p>
+            </div>
+          </div>
+          <div class="circle"></div>
+        </div>
+      </section>
+      <section class="form">
+        <h2 class="section-title section-title__form">Есть вопросы?</h2>
+        <img class="form__icon" src="images/icon question.svg" alt="icon question">
+        <p class="form__description">Заполните, пожалуйста, эту форму и я обязательно свяжусь с вами</p>
+        <form class="form-feedback" action="index.html" method="post">
+          <div class="feedback">
+            <input class="feedback__item" type="text" name="name" required="required" value="Имя и фамилия">
+            <input class="feedback__item" type="text" name="number" required="required" value="Номер телефона">
+            <input class="feedback__item" type="email" name="email" required="required" value="e-mail">
+          </div>
+          <input class="form-feedback__button" type="submit" name="submit_btn" value="Отправить">
+        </form>
+      </section>
+    </main>
+    <footer class="footer">
+      <p class="footer__text">Меня можно найти в социальных сетях:</p>
+      <div class="footer-link">
+        <img class="footer-link__icon" src="images/linkedin.svg" alt="icon linkedin">
+        <img class="footer-link__icon" src="images/instagram.svg" alt="icon instagram">
+        <img class="footer-link__icon" src="images/facebook.svg" alt="icon facebook">
+      </div>
+      <p class="footer__text-copyright">2020  © WebHero School</p>
+    </footer>
+</body>
+</html>

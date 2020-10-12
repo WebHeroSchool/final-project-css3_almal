@@ -1,0 +1,507 @@
+body {
+  margin: 0 auto;
+}
+
+.hamburger-menu {
+  display: none;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 47px;
+  padding-bottom: 41px;
+  border-top: 3px solid #330099;
+  border-bottom: 3px solid #330099;
+}
+
+.menu__item {
+  text-decoration: none;
+  margin-right: 42px;
+  color: #585858;
+  font: 800 20px/25px Gilroy, arial, helvetica, sans-serif;
+}
+
+.menu__item_button {
+  display: inline-block;
+  background: #330099;
+  color: #fff;
+  padding: 13px 30px;
+  border-radius: 50px;
+  font: 800 20px/24px Montserrat, arial, helvetica, sans-serif;
+}
+
+.cover {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  background: url(images/background.jpg) no-repeat;
+  background-size: cover;
+  height: 481px;
+}
+
+.cover__title {
+  margin: 0;
+  font: 900 40px/49px Montserrat, arial, helvetica, sans-serif;
+  color: #330099;
+  margin-right: 9%;
+  margin-bottom: 8px;
+  width: 39%;
+  text-align: right;
+}
+
+.cover__subtitle {
+  margin: 0;
+  font: 700 30px/37px Montserrat, arial, helvetica, sans-serif;
+  color: #fff;
+  margin-right: 9%;
+  width: 24%;
+  text-align: right;
+}
+
+.section-title {
+  text-align: center;
+  margin: 0;
+  padding-top: 90px;
+  font: 900 30px/37px Montserrat, arial, helvetica, sans-serif;
+  color: #585858;
+  margin-bottom: 50px;
+}
+
+.info-advantages {
+  background-color: #F9F9F9;
+}
+
+.advantages-wrapper {
+  width: 82%;
+  margin: auto;
+  text-align: center;
+}
+
+.advantages {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.advantages__item {
+  width: 23%;
+  text-align: center;
+  color: #585858;
+  margin-bottom: 130px;
+}
+
+.advantages__item-title {
+  font: 900 30px/37px Montserrat, arial, helvetica, sans-serif;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.advantages__item-description {
+  font: 500 20px/24px Montserrat, arial, helvetica, sans-serif;
+  margin: 0;
+}
+
+.advantages__item-icon {
+  margin-bottom: 38px;
+}
+
+.advantages__item-title_middle {
+  width: 57%;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.advantages__button {
+  display: inline-block;
+  font: 800 20px/24px Montserrat, arial, helvetica, sans-serif;
+  text-decoration: none;
+  color: #FFDA45;
+  padding: 20px 36px;
+  background: #330099;
+  border-radius: 50px;
+  margin-bottom: 90px;
+}
+
+.info-skills {
+  width: 82%;
+  margin: auto;
+  margin-bottom: 90px;
+}
+
+.skills__item {
+  display: flex;
+  width: 64%;
+  height: 175px;
+  margin-bottom: 80px;
+}
+
+.item-text__title {
+  font: 600 30px/37px Montserrat, arial, helvetica, sans-serif;
+  margin: 0;
+  margin-bottom: 8px;
+  color: #585858;
+}
+
+.item-text__description {
+  font: 500 20px/24px Montserrat, arial, helvetica, sans-serif;
+  margin: 0;
+  color: #585858;
+}
+
+.skills__item_right {
+  float: right;
+  text-align: right;
+}
+
+.skills__item-text {
+  padding-left: 25px;
+}
+
+.skills__item-text_left {
+  padding-right: 25px;
+}
+
+.form {
+  background-color: #E9E9E9;
+  padding-bottom: 60px;
+}
+
+.section-title__form {
+  padding-top: 60px;
+  margin-bottom: 36px;
+}
+
+.form__icon {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.form__description {
+  font: 600 20px/24px Montserrat, arial, helvetica, sans-serif;
+  text-align: center;
+  color: #585858;
+  margin: 0 auto;
+  width: 26%;
+  margin-bottom: 36px;
+}
+
+.feedback {
+  margin-bottom: 36px;
+}
+
+.feedback__item {
+  display: block;
+  font: 600 15px/18px Montserrat, arial, helvetica, sans-serif;
+  margin: 0 auto;
+  width: 20%;
+  height: 70px;
+  background-color: #FBFBFB;
+  color: #858585;
+  border: 1px solid #E9E9E9;
+  border-radius: 50px;
+  margin-bottom: 20px;
+  padding-left: 40px;
+}
+
+.form-feedback__button {
+  display: block;
+  font: 900 20px/24px Montserrat, arial, helvetica, sans-serif;
+  margin: 0 auto;
+  padding: 23px 90px;
+  background-color: #4AB272;
+  color: #fff;
+  border: 1px solid #4AB272;
+  border-radius: 50px;
+}
+
+.footer {
+  font: 400 20px/23px Roboto, arial, helvetica, sans-serif;
+  background: #330099;
+  color: #fff;
+  text-align: center;
+}
+
+.footer__text {
+  margin: 0;
+  padding-top: 60px;
+  margin-bottom: 20px;
+}
+
+.footer-link {
+  display: flex;
+  justify-content: space-between;
+  width: 26%;
+  margin: 0 auto;
+}
+
+.footer-link__icon {
+  margin-bottom: 76px;
+}
+
+.footer__text-copyright {
+  margin: 0;
+  padding-bottom: 60px;
+}
+
+@media screen and (max-width: 1024px) {
+  .advantages-wrapper {
+    width: 90%;
+  }
+
+  .advantages__item {
+    width: 30%;
+  }
+
+  .skills__item {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .menu__item_hide {
+    display: none;
+  }
+
+  .menu__item_button {
+    font: 800 8px/10px Montserrat, arial, helvetica, sans-serif;
+    margin-right: 19px;
+  }
+
+  .hamburger-menu {
+    display: block;
+    margin: 0;
+    width: 17%;
+  }
+
+  .header {
+    padding-top: 18px;
+    padding-bottom: 20px;
+    border-top: 0;
+    border-bottom: 0;
+  }
+
+  #menu__toggle {
+    opacity: 0;
+    position: absolute;
+  }
+
+  .menu__btn {
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 8px;
+    width: 23px;
+    height: 17px;
+    cursor: pointer;
+    z-index: 1;
+  }
+
+  .menu__btn > span,
+  .menu__btn > span::before,
+  .menu__btn > span::after {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background-color: #330099;
+  }
+  .menu__btn > span::before {
+    content: '';
+    top: -8px;
+  }
+
+  .menu__btn > span::after {
+    content: '';
+    top: 8px;
+  }
+
+  .menu-hide {
+    display: none;
+  }
+
+  .cover {
+    justify-content: flex-start;
+    height: 230px;
+  }
+
+  .cover__title {
+    font: 900 20px/24px Montserrat, arial, helvetica, sans-serif;
+    width: 70%;
+  }
+
+  .cover__subtitle {
+    font: 700 16px/20px Montserrat, arial, helvetica, sans-serif;
+    width: 58%;
+  }
+
+  .section-title {
+    padding-top: 35px;
+    font: 900 16px/20px Montserrat, arial, helvetica, sans-serif;
+    margin-bottom: 35px;
+  }
+
+  .advantages__item-title {
+    font: 900 16px/20px Montserrat, arial, helvetica, sans-serif;
+    margin-bottom: 3px;
+  }
+
+  .advantages__item-description {
+    font: 500 16px/20px Montserrat, arial, helvetica, sans-serif;
+  }
+
+  .advantages__item-icon {
+    margin-bottom: 8px;
+  }
+
+  .advantages {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .advantages__item {
+    width: 80%;
+    margin-bottom: 35px;
+  }
+
+  .advantages__button {
+    font: 800 16px/20px Montserrat, arial, helvetica, sans-serif;
+    padding: 17px 20px;
+    margin-bottom: 45px;
+  }
+
+  .info-skills {
+    height: 511px;
+  }
+
+  .skills__item {
+    display: none;
+  }
+
+  .skills__item_show {
+    display: block;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .skills__item-text {
+    padding-left: 0;
+  }
+
+  .skills__item_show-title {
+    font: 600 16px/20px Montserrat, arial, helvetica, sans-serif;
+    margin-bottom: 8px;
+  }
+
+  .skills__item_show-description {
+    font: 500 14px/17px Montserrat, arial, helvetica, sans-serif;
+  }
+
+  .skills__item_show {
+    position: relative;
+  }
+
+  .skills {
+    position: relative;
+  }
+
+  .circle {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    border: 1px solid #E1E6E9;
+    border-radius: 50%;
+    left: 50%;
+    top: 405px;
+  }
+
+  .circle::before {
+    position: absolute;
+    content: '';
+    display: block;
+    width: 15px;
+    height: 15px;
+    background: #FFDA45;
+    border-radius: 50%;
+    left: -30px;
+  }
+
+  .circle::after {
+    position: absolute;
+    content: '';
+    display: block;
+    width: 14px;
+    height: 14px;
+    border: 1px solid #E1E6E9;
+    border-radius: 50%;
+    left: 30px;
+  }
+
+  .form {
+    padding-bottom: 30px;
+  }
+
+  .section-title__form {
+    margin-bottom: 20px;
+  }
+
+  .form__icon {
+    margin-bottom: 27px;
+  }
+
+  .form__description {
+    font: 600 16px/20px Montserrat, arial, helvetica, sans-serif;
+    width: 76%;
+    margin-bottom: 20px;
+  }
+
+  .feedback {
+    margin-bottom: 30px;
+  }
+
+  .feedback__item {
+    font: 600 10px/12px Montserrat, arial, helvetica, sans-serif;
+    width: 81%;
+    height: 50px;
+    margin-bottom: 10px;
+    padding-left: 25px;
+  }
+
+  .form-feedback__button {
+    font: 900 16px/20px Montserrat, arial, helvetica, sans-serif;
+    padding: 15px 82px;
+  }
+
+  .footer {
+    font: 400 14px/16px Roboto, arial, helvetica, sans-serif;
+  }
+
+  .footer__text {
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 30px;
+    margin-bottom: 15px;
+  }
+
+  .footer-link {
+    width: 81%;
+  }
+
+  .footer-link__icon {
+    margin-bottom: 47px;
+  }
+
+  .footer__text-copyright {
+    padding-bottom: 30px;
+  }
+
+  .footer-link__icon {
+    width: 20%;
+    height: 20%;
+  }
+
+}
