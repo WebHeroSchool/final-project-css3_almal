@@ -314,10 +314,12 @@ body {
   padding-bottom: 60px;
 }
 
-@media screen and (max-width: 1024px) {
+@media (min-width: 901px) and (max-width: 1300px) {
   .advantages__column {
     width: 30%;
     margin-left: 6vw;
+    flex-wrap: nowrap;
+    flex-flow: column wrap;
   }
 
   .column2 {
@@ -328,17 +330,7 @@ body {
     margin-left: 4%;
   }
 
-  .column1__subtitle,
-  .column2__subtitle,
-  .column3__subtitle {
-    font: 900 25px/27px Montserrat, arial, helvetica, sans-serif;
-  }
 
-  .column1__description,
-  .column2__description,
-  .column3__description {
-    font: 500 18px/24px Montserrat, arial, helvetica, sans-serif;
-  }
 
   .advantages__button {
     left: 34%;
@@ -373,7 +365,7 @@ body {
   }
 }
 
-@media (min-width: 375px) and (max-width: 768px) {
+@media (min-width: 376px) and (max-width: 900px) {
   .menu__item_hide {
     display: none;
   }
@@ -688,7 +680,7 @@ body {
   }
 }
 
-@media screen and (max-width: 320px) {
+@media (min-width: 320px) and (max-width: 375px) {
   .menu__item_hide {
     display: none;
   }
