@@ -365,7 +365,7 @@ body {
   }
 }
 
-@media (min-width: 376px) and (max-width: 900px) {
+@media (min-width: 321px) and (max-width: 900px) {
   .menu__item_hide {
     display: none;
   }
@@ -680,7 +680,7 @@ body {
   }
 }
 
-@media (min-width: 320px) and (max-width: 375px) {
+@media screen and (max-width: 320px) {
   .menu__item_hide {
     display: none;
   }
